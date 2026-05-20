@@ -2,9 +2,10 @@ students = []
 
 while True:
     print("\n--- Student Management System ---")
-    print("1. Add Student")
+    print("1. Add new Student")
     print("2. View Students")
-    print("3. Exit")
+    print("3. Total Students")
+    
 
     choice = input("Enter choice: ")
 
