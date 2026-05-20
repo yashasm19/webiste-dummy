@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Website</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial;
+            background:#f4f4f4;
+            text-align:center;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            padding:20px;
+        }
+
+        .container{
+            margin-top:50px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:blue;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Dummy Website</h1>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to My Website</h2>
+        <p>This is a sample website pushed using Git and GitHub.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <script>
+        function showMessage(){
+            alert("Website is working successfully!");
+        }
+    </script>
+
+</body>
+</html>
