@@ -4,7 +4,7 @@ while True:
     print("\n--- Student Management System ---")
     print("1. Add new Student")
     print("2. Add branch")
-    print("3. phone no")
+    print("3. exit")
     
 
     choice = input("Enter choice: ")
@@ -15,12 +15,12 @@ while True:
         print(f"{name} added successfully!")
 
     elif choice == "2":
-        print("\nStudent List:")
+        print("\nadd branch:")
         
-        if len(students) == 0:
-            print("No students found")
+        if len(branch) == 0:
+            print("others")
         else:
-            for student in students:
+            for branch in students:
                 print(student)
 
     elif choice == "3":
